@@ -21,6 +21,7 @@ include ./lvgl/lv_fonts/lv_fonts.mk
 include ./lvgl/lv_misc/lv_misc.mk
 include ./lvgl/lv_themes/lv_themes.mk
 include ./lvgl/lv_draw/lv_draw.mk
+include ./lib/lv_lib.mk
 
 #DRIVERS
 include ./lv_drivers/display/display.mk
@@ -70,7 +71,7 @@ include ./lv_examples/lv_tutorial/6_images/lv_tutorial_images.mk
 include ./lv_examples/lv_tutorial/7_fonts/lv_tutorial_fonts.mk
 include ./lv_examples/lv_tutorial/8_animations/lv_tutorial_animations.mk
 include ./lv_examples/lv_tutorial/9_responsive/lv_tutorial_responsive.mk
-
+include ./lv_examples/lv_tutorial/11_animations_image/lv_tutorial_animations_image.mk
 #OTHERS
 CSRCS += mouse_cursor_icon.c
 
